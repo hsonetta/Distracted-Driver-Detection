@@ -5,7 +5,6 @@ import tensorflow as tf
 import keras as k
 from mtcnn.mtcnn import MTCNN
 from PIL import Image
-import time
 
 
 session = tf.Session(graph=tf.Graph())
@@ -36,7 +35,6 @@ class VideoCamera(object):
 
         cv2.putText(fr, pred, (box[0], box[1]), font, 2, (0 ,0, 255), 3)
         cv2.rectangle(fr,(box[0], box[1]),(box[0]+box[2],box[1]+box[3]),(0,255,0),2)
-        end_time_1 = time.time()
 
 
         _, jpeg = cv2.imencode('.jpg', fr)
