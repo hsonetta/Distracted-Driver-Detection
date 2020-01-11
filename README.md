@@ -2,4 +2,4 @@
 
 Distracted Driver detection using Keras, MTCNN and Flask
 
-[![Watch the video](https://i.imgur.com/vKb2F1B.png)](https://youtu.be/n35xB_-uSYE)
+[![Watch the video](https://www.vmcdn.ca/f/files/shared/miscellaneous-stock-images/distracteddriver_470.jpg;w=960)](https://youtu.be/n35xB_-uSYE)
