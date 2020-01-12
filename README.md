@@ -23,13 +23,14 @@ Reference : https://github.com/ipazc/mtcnn
 
 
 Files:
+
 model.py : This class will give us the predictions of our previously trained model.
 
 camera.py : This file implements a camera class that does the following operations: 
 
-1. Get the image stream from our input (Webcam feed or from video). 
-2. Detect faces with MTCNN and add bounding boxes.
-3. Rescale the images and send them to our trained deep learning model 
-4. get the predictions back from our trained model and add the label to each frame and return the final image stream.
+- Get the image stream from our input (Webcam feed or from video)
+- Detect faces with MTCNN and add bounding boxes
+- Rescale the images and send them to our trained deep learning model 
+- get the predictions back from our trained model and add the label to each frame and return the final image stream
 
 main.py : Lastly, our main script will create a Flask app that will render our image predictions into a web page.
