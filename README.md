@@ -1,6 +1,6 @@
 # Distracted-Driver-Detection
 
-Distracted Driver detection using Keras, MTCNN and Flask
+Distracted Driver detection using Keras, MTCNN, OpenCV and Flask
 
 [![Watch the video](https://i.imgur.com/SyhvFfX.png)](https://youtu.be/n35xB_-uSYE)
 
