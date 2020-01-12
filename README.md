@@ -2,7 +2,7 @@
 
 Distracted Driver detection using Keras, MTCNN, OpenCV and Flask.
 
-[![Watch the video](https://i.imgur.com/SyhvFfX.png)](https://youtu.be/n35xB_-uSYE)
+[![Watch the video](https://i.imgur.com/SyhvFfX.png)](https://youtu.be/EVk4aAk-l5Q)
 
 The dataset used for this project was utilized from kaggle. You can find the original dataset available here : https://www.kaggle.com/c/state-farm-distracted-driver-detection
 
