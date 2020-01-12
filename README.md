@@ -20,3 +20,16 @@ Reference : https://github.com/ipazc/mtcnn
 3. After detection of human face in an image, predicted the probabilities of the behaviour in the frame using trained model weights.
 
 4. Deployed the model on flask to make real time predictions. (Either live camera feed or upload a video)
+
+
+Files:
+model.py : This class will give us the predictions of our previously trained model.
+
+camera.py : This file implements a camera class that does the following operations: 
+
+1. Get the image stream from our input (Webcam feed or from video). 
+2. Detect faces with MTCNN and add bounding boxes.
+3. Rescale the images and send them to our trained deep learning model 
+4. get the predictions back from our trained model and add the label to each frame and return the final image stream.
+
+main.py : Lastly, our main script will create a Flask app that will render our image predictions into a web page.
