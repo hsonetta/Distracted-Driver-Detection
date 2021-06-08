@@ -27,7 +27,7 @@ def build_model(img_width, img_height):
     model.add(layers.Flatten())
     model.add(layers.Dense(1024, activation='relu'))
     model.add(layers.Dropout(0.5))
-    model.add(layers.Dense(10, activation='softmax'))
+    model.add(layers.Dense(6, activation='softmax'))
 
     return model
 
