@@ -12,14 +12,14 @@ Tools Used: Google Colab, Jupyter Notebook, Eclipse
 
 Workflow:
 
-1. Trained VGG16 model to recognize the distracted drivers.
+1. Trained MobilenetV2 model to recognize the distracted drivers.
 
 2. Used MTCNN (Multi-task Cascade Convolutional Neural Network) to detect profile face of humans in an image.
 Reference : https://github.com/ipazc/mtcnn
 
 3. After detection of human face in an image, predicted the probabilities of the behaviour in the frame using trained model weights.
 
-4. Deployed the model on flask to make real time predictions. (Either live camera feed or upload a video)
+4. Deployed the model on flask to generate real time predictions. (Either live camera feed or upload a video)
 
 
 Files:
